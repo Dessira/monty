@@ -1,0 +1,41 @@
+
+========== 06.m ==========
+
+========== 07.m ==========
+
+========== README.md ==========
+
+========== code_checker.c ==========
+check
+
+========== free.c ==========
+free_all
+
+========== funct.c ==========
+push
+stacked
+queued
+is_num
+
+========== funct2.c ==========
+pall
+print
+pint
+pop
+
+========== funct3.c ==========
+swap
+
+========== main_file.c ==========
+main
+
+========== monty ==========
+monty:0: ERROR: Does not appear to be a unified-diff format patch
+total: 1 errors, 0 warnings, 0 lines checked
+
+========== monty.h ==========
+struct stack_s
+struct instruction_s
+struct holder
+
+========== tests ==========
