@@ -47,3 +47,14 @@ void add(stack_t **stack, unsigned int line_cnt)
 	pop(stack, line_cnt);
 	(*stack)->n = result;
 }
+/**
+ * nop - inserts "lazy song"
+ * @stack: rest
+ * @line_cnt: hmmmmmm
+ * Return: void
+ */
+void nop(stack_t **stack, unsigned int line_cnt)
+{
+	(void) stack;
+	(void) line_cnt;
+}

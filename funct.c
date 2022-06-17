@@ -9,9 +9,10 @@ void push(stack_t **stack, unsigned int line_number)
 {
 	char *val = gen.num;
 
-	if (is_num(val) == 0)
+	if ((is_num(val)) == 0)
 	{
 		fprintf(stderr, "L%d: usage: push integer\n", line_number);
+		exit(EXIT_FAILURE);
 		return;
 	}
 	if (gen.check == 1)

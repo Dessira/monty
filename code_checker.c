@@ -18,6 +18,7 @@ void check(stack_t **stack, char *str, unsigned int line_number)
 		{"pop", pop},
 		{"swap", swap},
 		{"add", add},
+		{"nop", nop},
 		{NULL, NULL}
 	};
 	if (!strcmp(str, "queue"))
